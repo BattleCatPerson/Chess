@@ -45,6 +45,10 @@ public class PieceHolder : MonoBehaviour
         pieceTeam = piece.GetComponent<Piece>().team;
     }
 
+    public void SpawnParticle(ParticleSystem p)
+    {
+        Instantiate(p, new Vector3(transform.position.x, transform.position.y + 1, transform.position.z), p.transform.rotation);
+    }
     public void DestroyPieceModel()
     {
         Destroy(clone);

@@ -60,6 +60,7 @@
     <Compile Include="Assets\Piece.cs" />
     <Compile Include="Assets\Highlight.cs" />
     <Compile Include="Assets\PieceHolder.cs" />
+    <Compile Include="Assets\Scripts\Checkmate.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

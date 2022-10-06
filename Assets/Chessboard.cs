@@ -22,6 +22,7 @@ public class Chessboard : MonoBehaviour
     public int blackCount = 16;
     public int whiteCount = 16;
 
+    public ParticleSystem pSystem;
     private void Awake()
     {
         Instance = this;
@@ -81,8 +82,9 @@ public class Chessboard : MonoBehaviour
                         selected.DestroyPieceModel();
                     }
                     selected.SpawnPieceModel();
+                    selected.SpawnParticle(pSystem);
                     selected.pieceTeam = clicked.pieceTeam;
-
+                    
                     clicked.DestroyPieceModel();
                     clicked.Reset();
                     clicked = null;
