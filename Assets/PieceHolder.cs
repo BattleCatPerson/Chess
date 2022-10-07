@@ -14,6 +14,8 @@ public class PieceHolder : MonoBehaviour
     [HideInInspector]
     public Material original;
     public bool firstMove;
+    public bool selectable = true;
+
     // Start is called before the first frame update
     void Awake()
     {

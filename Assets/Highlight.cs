@@ -263,6 +263,18 @@ public class Highlight : MonoBehaviour
 
             }
         }
+        int ind = 0;
+        while(ind < captureList.Count)
+        {
+            if (!captureList[ind].selectable) captureList.RemoveAt(ind);
+            else ind += 1;
+        }
+        ind = 0;
+        while (ind < hList.Count)
+        {
+            if (!hList[ind].selectable) hList.RemoveAt(ind);
+            else ind += 1;
+        }
         if (check) return captureList;
         return hList;
     }
