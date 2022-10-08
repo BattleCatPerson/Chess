@@ -247,7 +247,7 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 0, y: 24.8}
+      snapOffset: {x: 0, y: 0}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: unity-transform-toolbar
@@ -279,7 +279,7 @@ MonoBehaviour:
       containerId: overlay-container--right
       floating: 0
       collapsed: 0
-      displayed: 1
+      displayed: 0
       snapOffset: {x: 0, y: 0}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
@@ -395,9 +395,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 4.050721, y: 9.637915, z: 3.607234}
+    m_Target: {x: 0.60346866, y: -4.4235826, z: 4.736944}
     speed: 2
-    m_Value: {x: 4.050721, y: 9.637915, z: 3.607234}
+    m_Value: {x: 0.60346866, y: -4.4235826, z: 4.736944}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -444,13 +444,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.28198445, y: 0.2969843, z: -0.092246555, w: 0.9076708}
+    m_Target: {x: 0.03944452, y: 0.850044, z: -0.5214173, w: 0.06439697}
     speed: 2
-    m_Value: {x: 0.28319347, y: 0.2981926, z: -0.0931127, w: 0.90675944}
+    m_Value: {x: 0.039441492, y: 0.84997874, z: -0.52137727, w: 0.06439203}
   m_Size:
-    m_Target: 12.124355
+    m_Target: 3.8679826
     speed: 2
-    m_Value: 4.4140105
+    m_Value: 3.8679826
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -532,7 +532,7 @@ MonoBehaviour:
     m_SaveData: []
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 29344
+  m_LastSelectedObjectID: 20344
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -590,9 +590,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 60540000
-      m_LastClickedID: 21600
-      m_ExpandedIDs: 30f1ffff74f1ffff40f2ffff44f2ffffc4f4ffff36fbffff5a540000
+      m_SelectedIDs: 745b0000
+      m_LastClickedID: 0
+      m_ExpandedIDs: cc84ffff7086ffff4c88ffff5088ffffca8dffffd08dffff9aa9ffffa0a9ffff7ab7ffff80b7ffffdacaffffe0caffff30f9ffff0cfbffff34fbffff6e4f00001c850000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -683,22 +683,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefab
+    - Assets/Scenes
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Prefab
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\dankm\Documents\GitHub\Chess
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 5a520000
-    m_LastClickedID: 21082
-    m_ExpandedIDs: 000000003452000000ca9a3b
+    m_SelectedIDs: f0550000
+    m_LastClickedID: 22000
+    m_ExpandedIDs: 00000000aa550000ee55000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -726,7 +726,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000034520000
+    m_ExpandedIDs: 00000000aa55000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -751,8 +751,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 60540000
-    m_LastClickedInstanceID: 21600
+    m_SelectedInstanceIDs: 745b0000
+    m_LastClickedInstanceID: 23412
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: 
     m_RenameOverlay:
@@ -801,8 +801,8 @@ MonoBehaviour:
     y: 0
     width: 345.59998
     height: 770.8
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}

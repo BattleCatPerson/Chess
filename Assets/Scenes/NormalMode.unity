@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18028334, g: 0.22571328, b: 0.3069217, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -153,6 +153,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
   m_HorizontalAxis: Horizontal
   m_VerticalAxis: Vertical
   m_SubmitButton: Submit
@@ -475,7 +476,6 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 4404792092276339530, guid: ce4031d7d3e7f3b47acf75473d551b64, type: 3}
@@ -911,7 +911,6 @@ PrefabInstance:
       value: A3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: ce4031d7d3e7f3b47acf75473d551b64, type: 3}
 --- !u!1 &4404792094239692076 stripped
 GameObject:
@@ -1245,7 +1244,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70e633811a465b7469d9fcf8fd856856, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  piece: {fileID: 3332008791226989070, guid: 26619c3a95404414bbcef219f036bf70, type: 3}
+  piece: {fileID: 919132149155446097, guid: 211fe9dc75fa9fb4180ae8335890359a, type: 3}
   clone: {fileID: 0}
   pieceName: 0
   pieceTeam: 0
@@ -1253,6 +1252,7 @@ MonoBehaviour:
   highlight: {fileID: 2100000, guid: 00c7e6878249c5a45a1756f38be92721, type: 2}
   original: {fileID: 0}
   firstMove: 0
+  selectable: 1
 --- !u!114 &4404792094239692141
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1273,6 +1273,7 @@ MonoBehaviour:
   highlight: {fileID: 2100000, guid: 00c7e6878249c5a45a1756f38be92721, type: 2}
   original: {fileID: 0}
   firstMove: 0
+  selectable: 1
 --- !u!114 &4404792094239692142
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1293,6 +1294,7 @@ MonoBehaviour:
   highlight: {fileID: 2100000, guid: 00c7e6878249c5a45a1756f38be92721, type: 2}
   original: {fileID: 0}
   firstMove: 0
+  selectable: 1
 --- !u!114 &4404792094239692143
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1313,6 +1315,7 @@ MonoBehaviour:
   highlight: {fileID: 2100000, guid: 00c7e6878249c5a45a1756f38be92721, type: 2}
   original: {fileID: 0}
   firstMove: 0
+  selectable: 1
 --- !u!114 &4404792094239692144
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1333,6 +1336,7 @@ MonoBehaviour:
   highlight: {fileID: 2100000, guid: 00c7e6878249c5a45a1756f38be92721, type: 2}
   original: {fileID: 0}
   firstMove: 0
+  selectable: 1
 --- !u!114 &4404792094239692145
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1353,6 +1357,7 @@ MonoBehaviour:
   highlight: {fileID: 2100000, guid: 00c7e6878249c5a45a1756f38be92721, type: 2}
   original: {fileID: 0}
   firstMove: 0
+  selectable: 1
 --- !u!114 &4404792094239692146
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1373,6 +1378,7 @@ MonoBehaviour:
   highlight: {fileID: 2100000, guid: 00c7e6878249c5a45a1756f38be92721, type: 2}
   original: {fileID: 0}
   firstMove: 0
+  selectable: 1
 --- !u!114 &4404792094239692147
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1385,7 +1391,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70e633811a465b7469d9fcf8fd856856, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  piece: {fileID: 3332008791226989070, guid: 26619c3a95404414bbcef219f036bf70, type: 3}
+  piece: {fileID: 3332008791226989070, guid: e2e6688abfc843e448f8b14929b5558f, type: 3}
   clone: {fileID: 0}
   pieceName: 0
   pieceTeam: 0
@@ -1393,6 +1399,7 @@ MonoBehaviour:
   highlight: {fileID: 2100000, guid: 00c7e6878249c5a45a1756f38be92721, type: 2}
   original: {fileID: 0}
   firstMove: 0
+  selectable: 1
 --- !u!114 &4404792094239692148
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1413,6 +1420,7 @@ MonoBehaviour:
   highlight: {fileID: 2100000, guid: 00c7e6878249c5a45a1756f38be92721, type: 2}
   original: {fileID: 0}
   firstMove: 0
+  selectable: 1
 --- !u!114 &4404792094239692149
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1433,6 +1441,7 @@ MonoBehaviour:
   highlight: {fileID: 2100000, guid: 00c7e6878249c5a45a1756f38be92721, type: 2}
   original: {fileID: 0}
   firstMove: 0
+  selectable: 1
 --- !u!114 &4404792094239692150
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1453,6 +1462,7 @@ MonoBehaviour:
   highlight: {fileID: 2100000, guid: 00c7e6878249c5a45a1756f38be92721, type: 2}
   original: {fileID: 0}
   firstMove: 0
+  selectable: 1
 --- !u!114 &4404792094239692151
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1473,6 +1483,7 @@ MonoBehaviour:
   highlight: {fileID: 2100000, guid: 00c7e6878249c5a45a1756f38be92721, type: 2}
   original: {fileID: 0}
   firstMove: 0
+  selectable: 1
 --- !u!114 &4404792094239692152
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1493,6 +1504,7 @@ MonoBehaviour:
   highlight: {fileID: 2100000, guid: 00c7e6878249c5a45a1756f38be92721, type: 2}
   original: {fileID: 0}
   firstMove: 0
+  selectable: 1
 --- !u!114 &4404792094239692153
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1513,6 +1525,7 @@ MonoBehaviour:
   highlight: {fileID: 2100000, guid: 00c7e6878249c5a45a1756f38be92721, type: 2}
   original: {fileID: 0}
   firstMove: 0
+  selectable: 1
 --- !u!114 &4404792094239692154
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1533,6 +1546,7 @@ MonoBehaviour:
   highlight: {fileID: 2100000, guid: 00c7e6878249c5a45a1756f38be92721, type: 2}
   original: {fileID: 0}
   firstMove: 0
+  selectable: 1
 --- !u!114 &4404792094239692155
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1553,6 +1567,7 @@ MonoBehaviour:
   highlight: {fileID: 2100000, guid: 00c7e6878249c5a45a1756f38be92721, type: 2}
   original: {fileID: 0}
   firstMove: 0
+  selectable: 1
 --- !u!114 &4404792094239692156
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1573,6 +1588,7 @@ MonoBehaviour:
   highlight: {fileID: 2100000, guid: 00c7e6878249c5a45a1756f38be92721, type: 2}
   original: {fileID: 0}
   firstMove: 0
+  selectable: 1
 --- !u!114 &4404792094239692157
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1593,6 +1609,7 @@ MonoBehaviour:
   highlight: {fileID: 2100000, guid: 00c7e6878249c5a45a1756f38be92721, type: 2}
   original: {fileID: 0}
   firstMove: 0
+  selectable: 1
 --- !u!114 &4404792094239692158
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1613,6 +1630,7 @@ MonoBehaviour:
   highlight: {fileID: 2100000, guid: 00c7e6878249c5a45a1756f38be92721, type: 2}
   original: {fileID: 0}
   firstMove: 0
+  selectable: 1
 --- !u!114 &4404792094239692159
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1633,6 +1651,7 @@ MonoBehaviour:
   highlight: {fileID: 2100000, guid: 00c7e6878249c5a45a1756f38be92721, type: 2}
   original: {fileID: 0}
   firstMove: 0
+  selectable: 1
 --- !u!114 &4404792094239692160
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1653,6 +1672,7 @@ MonoBehaviour:
   highlight: {fileID: 2100000, guid: 00c7e6878249c5a45a1756f38be92721, type: 2}
   original: {fileID: 0}
   firstMove: 0
+  selectable: 1
 --- !u!114 &4404792094239692161
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1673,6 +1693,7 @@ MonoBehaviour:
   highlight: {fileID: 2100000, guid: 00c7e6878249c5a45a1756f38be92721, type: 2}
   original: {fileID: 0}
   firstMove: 0
+  selectable: 1
 --- !u!114 &4404792094239692162
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1693,6 +1714,7 @@ MonoBehaviour:
   highlight: {fileID: 2100000, guid: 00c7e6878249c5a45a1756f38be92721, type: 2}
   original: {fileID: 0}
   firstMove: 0
+  selectable: 1
 --- !u!114 &4404792094239692163
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1713,6 +1735,7 @@ MonoBehaviour:
   highlight: {fileID: 2100000, guid: 00c7e6878249c5a45a1756f38be92721, type: 2}
   original: {fileID: 0}
   firstMove: 0
+  selectable: 1
 --- !u!114 &4404792094239692164
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1733,6 +1756,7 @@ MonoBehaviour:
   highlight: {fileID: 2100000, guid: 00c7e6878249c5a45a1756f38be92721, type: 2}
   original: {fileID: 0}
   firstMove: 0
+  selectable: 1
 --- !u!114 &4404792094239692165
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1753,6 +1777,7 @@ MonoBehaviour:
   highlight: {fileID: 2100000, guid: 00c7e6878249c5a45a1756f38be92721, type: 2}
   original: {fileID: 0}
   firstMove: 0
+  selectable: 1
 --- !u!114 &4404792094239692166
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1773,6 +1798,7 @@ MonoBehaviour:
   highlight: {fileID: 2100000, guid: 00c7e6878249c5a45a1756f38be92721, type: 2}
   original: {fileID: 0}
   firstMove: 0
+  selectable: 1
 --- !u!114 &4404792094239692167
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1793,6 +1819,7 @@ MonoBehaviour:
   highlight: {fileID: 2100000, guid: 00c7e6878249c5a45a1756f38be92721, type: 2}
   original: {fileID: 0}
   firstMove: 0
+  selectable: 1
 --- !u!114 &4404792094239692168
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1813,6 +1840,7 @@ MonoBehaviour:
   highlight: {fileID: 2100000, guid: 00c7e6878249c5a45a1756f38be92721, type: 2}
   original: {fileID: 0}
   firstMove: 0
+  selectable: 1
 --- !u!114 &4404792094239692169
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1833,6 +1861,7 @@ MonoBehaviour:
   highlight: {fileID: 2100000, guid: 00c7e6878249c5a45a1756f38be92721, type: 2}
   original: {fileID: 0}
   firstMove: 0
+  selectable: 1
 --- !u!114 &4404792094239692170
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1853,6 +1882,7 @@ MonoBehaviour:
   highlight: {fileID: 2100000, guid: 00c7e6878249c5a45a1756f38be92721, type: 2}
   original: {fileID: 0}
   firstMove: 0
+  selectable: 1
 --- !u!114 &4404792094239692171
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1873,6 +1903,7 @@ MonoBehaviour:
   highlight: {fileID: 2100000, guid: 00c7e6878249c5a45a1756f38be92721, type: 2}
   original: {fileID: 0}
   firstMove: 0
+  selectable: 1
 --- !u!114 &4404792094239692172
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1893,6 +1924,7 @@ MonoBehaviour:
   highlight: {fileID: 2100000, guid: 00c7e6878249c5a45a1756f38be92721, type: 2}
   original: {fileID: 0}
   firstMove: 0
+  selectable: 1
 --- !u!114 &4404792094239692173
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1913,6 +1945,7 @@ MonoBehaviour:
   highlight: {fileID: 2100000, guid: 00c7e6878249c5a45a1756f38be92721, type: 2}
   original: {fileID: 0}
   firstMove: 0
+  selectable: 1
 --- !u!114 &4404792094239692174
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1933,6 +1966,7 @@ MonoBehaviour:
   highlight: {fileID: 2100000, guid: 00c7e6878249c5a45a1756f38be92721, type: 2}
   original: {fileID: 0}
   firstMove: 0
+  selectable: 1
 --- !u!114 &4404792094239692175
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1953,6 +1987,7 @@ MonoBehaviour:
   highlight: {fileID: 2100000, guid: 00c7e6878249c5a45a1756f38be92721, type: 2}
   original: {fileID: 0}
   firstMove: 0
+  selectable: 1
 --- !u!114 &4404792094239692176
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1973,6 +2008,7 @@ MonoBehaviour:
   highlight: {fileID: 2100000, guid: 00c7e6878249c5a45a1756f38be92721, type: 2}
   original: {fileID: 0}
   firstMove: 0
+  selectable: 1
 --- !u!114 &4404792094239692177
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1993,6 +2029,7 @@ MonoBehaviour:
   highlight: {fileID: 2100000, guid: 00c7e6878249c5a45a1756f38be92721, type: 2}
   original: {fileID: 0}
   firstMove: 0
+  selectable: 1
 --- !u!114 &4404792094239692178
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2013,6 +2050,7 @@ MonoBehaviour:
   highlight: {fileID: 2100000, guid: 00c7e6878249c5a45a1756f38be92721, type: 2}
   original: {fileID: 0}
   firstMove: 0
+  selectable: 1
 --- !u!114 &4404792094239692179
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2033,6 +2071,7 @@ MonoBehaviour:
   highlight: {fileID: 2100000, guid: 00c7e6878249c5a45a1756f38be92721, type: 2}
   original: {fileID: 0}
   firstMove: 0
+  selectable: 1
 --- !u!114 &4404792094239692180
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2053,6 +2092,7 @@ MonoBehaviour:
   highlight: {fileID: 2100000, guid: 00c7e6878249c5a45a1756f38be92721, type: 2}
   original: {fileID: 0}
   firstMove: 0
+  selectable: 1
 --- !u!114 &4404792094239692181
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2073,6 +2113,7 @@ MonoBehaviour:
   highlight: {fileID: 2100000, guid: 00c7e6878249c5a45a1756f38be92721, type: 2}
   original: {fileID: 0}
   firstMove: 0
+  selectable: 1
 --- !u!114 &4404792094239692182
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2093,6 +2134,7 @@ MonoBehaviour:
   highlight: {fileID: 2100000, guid: 00c7e6878249c5a45a1756f38be92721, type: 2}
   original: {fileID: 0}
   firstMove: 0
+  selectable: 1
 --- !u!114 &4404792094239692183
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2113,6 +2155,7 @@ MonoBehaviour:
   highlight: {fileID: 2100000, guid: 00c7e6878249c5a45a1756f38be92721, type: 2}
   original: {fileID: 0}
   firstMove: 0
+  selectable: 1
 --- !u!114 &4404792094239692184
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2133,6 +2176,7 @@ MonoBehaviour:
   highlight: {fileID: 2100000, guid: 00c7e6878249c5a45a1756f38be92721, type: 2}
   original: {fileID: 0}
   firstMove: 0
+  selectable: 1
 --- !u!114 &4404792094239692185
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2153,6 +2197,7 @@ MonoBehaviour:
   highlight: {fileID: 2100000, guid: 00c7e6878249c5a45a1756f38be92721, type: 2}
   original: {fileID: 0}
   firstMove: 0
+  selectable: 1
 --- !u!114 &4404792094239692186
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2173,6 +2218,7 @@ MonoBehaviour:
   highlight: {fileID: 2100000, guid: 00c7e6878249c5a45a1756f38be92721, type: 2}
   original: {fileID: 0}
   firstMove: 0
+  selectable: 1
 --- !u!114 &4404792094239692187
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2193,6 +2239,7 @@ MonoBehaviour:
   highlight: {fileID: 2100000, guid: 00c7e6878249c5a45a1756f38be92721, type: 2}
   original: {fileID: 0}
   firstMove: 0
+  selectable: 1
 --- !u!114 &4404792094239692188
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2213,6 +2260,7 @@ MonoBehaviour:
   highlight: {fileID: 2100000, guid: 00c7e6878249c5a45a1756f38be92721, type: 2}
   original: {fileID: 0}
   firstMove: 0
+  selectable: 1
 --- !u!114 &4404792094239692189
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2233,6 +2281,7 @@ MonoBehaviour:
   highlight: {fileID: 2100000, guid: 00c7e6878249c5a45a1756f38be92721, type: 2}
   original: {fileID: 0}
   firstMove: 0
+  selectable: 1
 --- !u!114 &4404792094239692190
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2253,6 +2302,7 @@ MonoBehaviour:
   highlight: {fileID: 2100000, guid: 00c7e6878249c5a45a1756f38be92721, type: 2}
   original: {fileID: 0}
   firstMove: 0
+  selectable: 1
 --- !u!114 &4404792094239692191
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2273,6 +2323,7 @@ MonoBehaviour:
   highlight: {fileID: 2100000, guid: 00c7e6878249c5a45a1756f38be92721, type: 2}
   original: {fileID: 0}
   firstMove: 0
+  selectable: 1
 --- !u!114 &4404792094239692192
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2293,6 +2344,7 @@ MonoBehaviour:
   highlight: {fileID: 2100000, guid: 00c7e6878249c5a45a1756f38be92721, type: 2}
   original: {fileID: 0}
   firstMove: 0
+  selectable: 1
 --- !u!114 &4404792094239692193
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2313,6 +2365,7 @@ MonoBehaviour:
   highlight: {fileID: 2100000, guid: 00c7e6878249c5a45a1756f38be92721, type: 2}
   original: {fileID: 0}
   firstMove: 0
+  selectable: 1
 --- !u!114 &4404792094239692194
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2333,6 +2386,7 @@ MonoBehaviour:
   highlight: {fileID: 2100000, guid: 00c7e6878249c5a45a1756f38be92721, type: 2}
   original: {fileID: 0}
   firstMove: 0
+  selectable: 1
 --- !u!114 &4404792094239692195
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2353,6 +2407,7 @@ MonoBehaviour:
   highlight: {fileID: 2100000, guid: 00c7e6878249c5a45a1756f38be92721, type: 2}
   original: {fileID: 0}
   firstMove: 0
+  selectable: 1
 --- !u!114 &4404792094239692196
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2373,6 +2428,7 @@ MonoBehaviour:
   highlight: {fileID: 2100000, guid: 00c7e6878249c5a45a1756f38be92721, type: 2}
   original: {fileID: 0}
   firstMove: 0
+  selectable: 1
 --- !u!114 &4404792094239692197
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2393,6 +2449,7 @@ MonoBehaviour:
   highlight: {fileID: 2100000, guid: 00c7e6878249c5a45a1756f38be92721, type: 2}
   original: {fileID: 0}
   firstMove: 0
+  selectable: 1
 --- !u!114 &4404792094239692198
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2413,6 +2470,7 @@ MonoBehaviour:
   highlight: {fileID: 2100000, guid: 00c7e6878249c5a45a1756f38be92721, type: 2}
   original: {fileID: 0}
   firstMove: 0
+  selectable: 1
 --- !u!114 &4404792094239692199
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2433,6 +2491,7 @@ MonoBehaviour:
   highlight: {fileID: 2100000, guid: 00c7e6878249c5a45a1756f38be92721, type: 2}
   original: {fileID: 0}
   firstMove: 0
+  selectable: 1
 --- !u!114 &4404792094239692200
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2453,6 +2512,7 @@ MonoBehaviour:
   highlight: {fileID: 2100000, guid: 00c7e6878249c5a45a1756f38be92721, type: 2}
   original: {fileID: 0}
   firstMove: 0
+  selectable: 1
 --- !u!114 &4404792094239692201
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2473,6 +2533,7 @@ MonoBehaviour:
   highlight: {fileID: 2100000, guid: 00c7e6878249c5a45a1756f38be92721, type: 2}
   original: {fileID: 0}
   firstMove: 0
+  selectable: 1
 --- !u!114 &4404792094239692202
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2493,6 +2554,7 @@ MonoBehaviour:
   highlight: {fileID: 2100000, guid: 00c7e6878249c5a45a1756f38be92721, type: 2}
   original: {fileID: 0}
   firstMove: 0
+  selectable: 1
 --- !u!114 &4404792094239692203
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2513,3 +2575,4 @@ MonoBehaviour:
   highlight: {fileID: 2100000, guid: 00c7e6878249c5a45a1756f38be92721, type: 2}
   original: {fileID: 0}
   firstMove: 0
+  selectable: 1
