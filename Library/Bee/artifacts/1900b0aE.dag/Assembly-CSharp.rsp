@@ -343,6 +343,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Chessboard.cs"
 "Assets/Highlight.cs"
+"Assets/LoadScene.cs"
 "Assets/Piece.cs"
 "Assets/PieceHolder.cs"
 "Assets/Scripts/Checkmate.cs"

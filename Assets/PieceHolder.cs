@@ -11,11 +11,12 @@ public class PieceHolder : MonoBehaviour
     public Team pieceTeam;
     public Chessboard board;
     public Material highlight;
+    public Material destroyed;
     [HideInInspector]
     public Material original;
     public bool firstMove;
     public bool selectable = true;
-
+    
     // Start is called before the first frame update
     void Awake()
     {
@@ -34,6 +35,7 @@ public class PieceHolder : MonoBehaviour
     void Update()
     {
         if (board.highlighted.Contains(this)) GetComponent<Renderer>().material = highlight;
+        else if (selectable == false) GetComponent<Renderer>().material = destroyed;
         else
         {
             GetComponent<Renderer>().material = original;

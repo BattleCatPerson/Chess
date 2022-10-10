@@ -323,8 +323,12 @@
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XPath.XDocument.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/NetStandard/ref/2.1.0/netstandard.dll"
--r:"C:/Users/dankm/Desktop/Unity Projects/Chess/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll"
+-r:"C:/Users/dankm/Documents/GitHub/Chess/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/Unity.PlasticSCM.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aEDbg.dag/Unity.ProBuilder.AddOns.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aEDbg.dag/Unity.ProBuilder.AssetIdRemapUtility.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aEDbg.dag/Unity.ProBuilder.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aEDbg.dag/Unity.ProBuilder.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/Unity.Rider.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/Unity.Services.Core.Analytics.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/Unity.Services.Core.Environments.ref.dll"
@@ -341,6 +345,8 @@
 "Assets/Highlight.cs"
 "Assets/Piece.cs"
 "Assets/PieceHolder.cs"
+"Assets/Scripts/Checkmate.cs"
+"Assets/Volcano.cs"
 -langversion:9.0
 
 /deterministic

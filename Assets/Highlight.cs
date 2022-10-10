@@ -114,7 +114,7 @@ public class Highlight : MonoBehaviour
                 {
                     cX += xDir;
                     cY += yDir;
-                    if (cX < 0 || cX >= 8 || cY < 0 || cY >= 8 || grid[cX, cY].pieceTeam == team) break;
+                    if (cX < 0 || cX >= 8 || cY < 0 || cY >= 8 || grid[cX, cY].pieceTeam == team || !grid[cX, cY].selectable) break;
                     if (grid[cX, cY].pieceTeam != Team.none && grid[cX, cY].pieceTeam != team)
                     {
                         hList.Add(grid[cX, cY]);
@@ -139,7 +139,7 @@ public class Highlight : MonoBehaviour
                 while (cX >= 0 && cX < 8 && cY >= 0 && cY < 8)
                 {
                     cX += xDir;
-                    if (cX < 0 || cX >= 8 || cY < 0 || cY >= 8 || grid[cX, cY].pieceTeam == team) break;
+                    if (cX < 0 || cX >= 8 || cY < 0 || cY >= 8 || grid[cX, cY].pieceTeam == team || !grid[cX, cY].selectable) break;
                     if (grid[cX, cY].pieceTeam != Team.none && grid[cX, cY].pieceTeam != team)
                     {
                         hList.Add(grid[cX, cY]);
@@ -160,7 +160,7 @@ public class Highlight : MonoBehaviour
                 while (cX >= 0 && cX < 8 && cY >= 0 && cY < 8)
                 {
                     cY += yDir;
-                    if (cX < 0 || cX >= 8 || cY < 0 || cY >= 8 || grid[cX, cY].pieceTeam == team) break;
+                    if (cX < 0 || cX >= 8 || cY < 0 || cY >= 8 || grid[cX, cY].pieceTeam == team || !grid[cX, cY].selectable) break;
                     if (grid[cX, cY].pieceTeam != Team.none && grid[cX, cY].pieceTeam != team)
                     {
                         hList.Add(grid[cX, cY]);
@@ -183,7 +183,7 @@ public class Highlight : MonoBehaviour
                 while (cX >= 0 && cX < 8 && cY >= 0 && cY < 8)
                 {
                     cX += xD;
-                    if (cX < 0 || cX >= 8 || cY < 0 || cY >= 8 || grid[cX, cY].pieceTeam == team) break;
+                    if (cX < 0 || cX >= 8 || cY < 0 || cY >= 8 || grid[cX, cY].pieceTeam == team || !grid[cX, cY].selectable) break;
                     if (grid[cX, cY].pieceTeam != Team.none && grid[cX, cY].pieceTeam != team)
                     {
                         hList.Add(grid[cX, cY]);
@@ -204,7 +204,7 @@ public class Highlight : MonoBehaviour
                 while (cX >= 0 && cX < 8 && cY >= 0 && cY < 8)
                 {
                     cY += yD;
-                    if (cX < 0 || cX >= 8 || cY < 0 || cY >= 8 || grid[cX, cY].pieceTeam == team) break;
+                    if (cX < 0 || cX >= 8 || cY < 0 || cY >= 8 || grid[cX, cY].pieceTeam == team || !grid[cX, cY].selectable) break;
                     if (grid[cX, cY].pieceTeam != Team.none && grid[cX, cY].pieceTeam != team)
                     {
                         hList.Add(grid[cX, cY]);
@@ -232,7 +232,7 @@ public class Highlight : MonoBehaviour
                 {
                     cX += xDir;
                     cY += yDir;
-                    if (cX < 0 || cX >= 8 || cY < 0 || cY >= 8 || grid[cX, cY].pieceTeam == team) break;
+                    if (cX < 0 || cX >= 8 || cY < 0 || cY >= 8 || grid[cX, cY].pieceTeam == team || !grid[cX, cY].selectable) break;
                     if (grid[cX, cY].pieceTeam != Team.none && grid[cX, cY].pieceTeam != team)
                     {
                         hList.Add(grid[cX, cY]);

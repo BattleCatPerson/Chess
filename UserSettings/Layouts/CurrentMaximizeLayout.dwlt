@@ -154,7 +154,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
+  m_Name: SceneView
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -395,9 +395,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.60346866, y: -4.4235826, z: 4.736944}
+    m_Target: {x: 451.875, y: 209, z: 0}
     speed: 2
-    m_Value: {x: 0.60346866, y: -4.4235826, z: 4.736944}
+    m_Value: {x: 451.875, y: 209, z: 0}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -444,13 +444,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.03944452, y: 0.850044, z: -0.5214173, w: 0.06439697}
+    m_Target: {x: -0.2360601, y: -0.27836442, z: 0.07086128, w: -0.9284097}
     speed: 2
-    m_Value: {x: 0.039441492, y: 0.84997874, z: -0.52137727, w: 0.06439203}
+    m_Value: {x: -0.23603922, y: -0.2783398, z: 0.070855014, w: -0.92832756}
   m_Size:
-    m_Target: 3.8679826
+    m_Target: 138.86345
     speed: 2
-    m_Value: 3.8679826
+    m_Value: 138.86345
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -532,7 +532,7 @@ MonoBehaviour:
     m_SaveData: []
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 20344
+  m_LastSelectedObjectID: 20374
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -590,9 +590,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 34fbffff
+      m_SelectedIDs: a84f0000
+      m_LastClickedID: 20392
+      m_ExpandedIDs: 34fbffff684f0000724f0000804f0000964f0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -608,7 +608,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 8}
+        m_ClientGUIView: {fileID: 12}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -683,22 +683,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefab/Black Pieces
+    - Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Prefab/Black Pieces
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\dankm\Documents\GitHub\Chess
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 0c560000
-    m_LastClickedID: 22028
-    m_ExpandedIDs: 00000000bc5500000456000000ca9a3b
+    m_SelectedIDs: 2c560000
+    m_LastClickedID: 22060
+    m_ExpandedIDs: 000000002c56000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -726,7 +726,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000bc550000
+    m_ExpandedIDs: 000000002c56000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -751,8 +751,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
+    m_SelectedInstanceIDs: a84f0000
+    m_LastClickedInstanceID: 20392
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: 
     m_RenameOverlay:
@@ -778,7 +778,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 341.2}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 115
@@ -844,7 +844,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
+  m_LastVerticalScrollValue: 324
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
