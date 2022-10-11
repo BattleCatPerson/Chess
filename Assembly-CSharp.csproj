@@ -56,13 +56,13 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Chessboard.cs" />
-    <Compile Include="Assets\Piece.cs" />
+    <Compile Include="Assets\Scripts\Chessboard.cs" />
+    <Compile Include="Assets\Scripts\LoadScene.cs" />
+    <Compile Include="Assets\Scripts\Piece.cs" />
     <Compile Include="Assets\Scripts\Checkmate.cs" />
-    <Compile Include="Assets\Highlight.cs" />
-    <Compile Include="Assets\PieceHolder.cs" />
-    <Compile Include="Assets\Volcano.cs" />
-    <Compile Include="Assets\LoadScene.cs" />
+    <Compile Include="Assets\Scripts\Highlight.cs" />
+    <Compile Include="Assets\Scripts\PieceHolder.cs" />
+    <Compile Include="Assets\Scripts\Volcano.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
