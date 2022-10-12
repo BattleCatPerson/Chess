@@ -32,6 +32,9 @@ public class Chessboard : MonoBehaviour
     public GameObject winPanel;
     public TextMeshProUGUI victoryText;
 
+    GameObject queenWhite;
+    GameObject queenBlack;
+
     bool gameOver;
     private void Awake()
     {
@@ -41,6 +44,8 @@ public class Chessboard : MonoBehaviour
     private void Start()
     {
         UpdateInspectorList();
+        queenWhite = grid[3, 0].piece;
+        queenBlack = grid[3, 7].piece;
     }
     private void Update()
     {
@@ -48,20 +53,20 @@ public class Chessboard : MonoBehaviour
         {
             if (blackCount == 0 || whiteCount == 0)
             {
-                string winner = blackCount == 0 ? "red" : "brown";
+                string winner = blackCount == 0 ? "brown" : "red";
                 gameOver = true;
                 victoryText.text = "Team " + winner + " wins!";
                 winPanel.SetActive(true);
             }
             else if (whiteNoMoves)
             {
-                victoryText.text = "Team brown wins! Team red has no more moves!";
+                victoryText.text = "Team red wins! Team brown has no more moves!";
                 winPanel.SetActive(true);
                 gameOver = true;
             }
             else if (blackNoMoves)
             {
-                victoryText.text = "Team red wins! Team brown has no more moves!";
+                victoryText.text = "Team brown wins! Team red has no more moves!";
                 winPanel.SetActive(true);
                 gameOver = true;
             }
@@ -103,6 +108,22 @@ public class Chessboard : MonoBehaviour
                         selected.firstMove = false;
                         selected.pieceName = clicked.pieceName;
                         selected.piece = clicked.piece;
+                        if (clicked.pieceName == PieceName.pawn)
+                        {
+                            int ind = Array.IndexOf(inspectorGrid, selected);
+                            int y = (int)(ind / 8);
+                            if(clicked.pieceTeam == Team.white && y == 7)
+                            {
+                                selected.pieceName = PieceName.queen;
+                                selected.piece = queenWhite;
+                            }
+                            else if(clicked.pieceTeam == Team.black && y == 0)
+                            {
+                                selected.pieceName = PieceName.queen;
+                                selected.piece = queenBlack;
+                            }
+
+                        }
                         if (selected.pieceTeam != Team.none)
                         {
                             selected.DestroyPieceModel();

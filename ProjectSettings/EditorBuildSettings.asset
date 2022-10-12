@@ -8,4 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/VolcanoMode.unity
     guid: 0b21d4904b0841d4a806130150fdbb29
+  - enabled: 1
+    path: Assets/Scenes/NormalMode.unity
+    guid: 0ca1a33bf892d334a8e22353ce272fe3
   m_configObjects: {}
