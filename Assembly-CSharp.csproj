@@ -63,6 +63,7 @@
     <Compile Include="Assets\Scripts\Highlight.cs" />
     <Compile Include="Assets\Scripts\PieceHolder.cs" />
     <Compile Include="Assets\Scripts\Volcano.cs" />
+    <Compile Include="Assets\Quit.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
